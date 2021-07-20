@@ -1,33 +1,33 @@
 import styled from 'styled-components'
 
-export const CardContainer = styled.div`
-  width: 95%;
-  height: 262px;
-  background: #1aa27c;
-  /* background: yellow; */
-  border-radius: 12px;
-  margin-top: 36px;
-  color: white;
-  /* color: yellow; */
-  font-size: 25px;
-  display: flex;
-  /* flex-direction: column; */
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+// export const CardContainer = styled.div`
+//   width: 95%;
+//   height: 262px;
+//   background: #1aa27c;
+//   /* background: yellow; */
+//   border-radius: 12px;
+//   margin-top: 36px;
+//   color: white;
+//   /* color: yellow; */
+//   font-size: 25px;
+//   display: flex;
+//   /* flex-direction: column; */
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
 
-  @media screen and (max-width: 850px) {
-    margin-top: 30px;
-    height: 650px;
-    display: flex;
-    flex-direction: row;
-  }
+//   @media screen and (max-width: 850px) {
+//     margin-top: 30px;
+//     height: 650px;
+//     display: flex;
+//     flex-direction: row;
+//   }
 
-  @media screen and (max-width: 600px) {
-    margin-top: 30px;
-    height: 400px;
-  }
-`
+//   @media screen and (max-width: 600px) {
+//     margin-top: 30px;
+//     height: 400px;
+//   }
+// `
 
 export const ContainerReactPlayer = styled.div`
   width: 100%;
@@ -59,35 +59,35 @@ export const Footer = styled.div`
   }
 `
 export const Data = styled.p`
-  color: white;
+  /* color: white;
   font-size: 12px;
   width: 180px;
   line-height: 18px;
-  font-family: Lato;
+  font-family: Lato; */
 `
 export const SideBarContainer = styled.div`
   float: left;
   margin-left: -20px;
 `
 
-export const ImageContainer = styled.div`
-  width: 75%;
-  height: 416px;
-  background: #1aa27c;
-  /* background: yellow; */
-  border-radius: 12px;
-  margin-top: 20px;
-  color: white;
-  /* color: yellow; */
-  font-size: 25px;
-  display: flex;
-  flex-direction: column;
+// export const ImageContainer = styled.div`
+//   width: 75%;
+//   height: 416px;
+//   background: #1aa27c;
+//   /* background: yellow; */
+//   border-radius: 12px;
+//   margin-top: 20px;
+//   color: white;
+//   /* color: yellow; */
+//   font-size: 25px;
+//   display: flex;
+//   flex-direction: column;
 
-  @media screen and (max-width: 600px) {
-    display: flex;
-    flex-direction: column;
-  }
-`
+//   @media screen and (max-width: 600px) {
+//     display: flex;
+//     flex-direction: column;
+//   }
+// `
 
 export const ImagemCard = styled.img`
   width: 70%;
@@ -123,37 +123,38 @@ export const TitleContainer = styled.div`
   @media screen and (max-width: 600px) {
     width: 65%;
   }
+  //
 `
-export const Title = styled.span`
-  /* position: relative; */
+// export const Title = styled.span`
+//   /* position: relative; */
 
-  /* max-width: 12%; */
-  font-family: Lato;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 3rem;
-  line-height: 64, 8px;
-  /* background: orange; */
-  /* or 0% */
-  /* 
-  display: flex;
-  align-items: center;
-  text-align: center; */
-  letter-spacing: 0.01em;
+//   /* max-width: 12%; */
+//   font-family: Lato;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 3rem;
+//   line-height: 64, 8px;
+//   /* background: orange; */
+//   /* or 0% */
+//   /*
+//   display: flex;
+//   align-items: center;
+//   text-align: center; */
+//   letter-spacing: 0.01em;
 
-  color: #ffffff;
+//   color: #ffffff;
 
-  @media screen and (max-width: 600px) {
-    font-size: 1.4rem;
-    font-weight: 400;
-    width: 125%;
-    margin-left: -6px;
-  }
+//   @media screen and (max-width: 600px) {
+//     font-size: 1.4rem;
+//     font-weight: 400;
+//     width: 125%;
+//     margin-left: -6px;
+//   }
 
-  @media screen and (min-width: 600px) and (max-width: 920px) {
-    font-size: 2rem;
-  }
-`
+//   @media screen and (min-width: 600px) and (max-width: 920px) {
+//     font-size: 2rem;
+//   }
+// `
 export const ImagemIman = styled.img`
   @media screen and (min-width: 601px) {
     width: 70%;
@@ -179,25 +180,25 @@ export const ContainerImage = styled.div`
     display: none;
   }
 `
-export const Line = styled.div`
-  position: absolute;
-  width: 22%;
-  height: 0px;
-  left: 15.5%;
-  margin-top: 155.78px;
+// export const Line = styled.div`
+//   position: absolute;
+//   width: 22%;
+//   height: 0px;
+//   left: 15.5%;
+//   margin-top: 155.78px;
 
-  border: 2px solid #ffffff;
+//   border: 2px solid #ffffff;
 
-  @media screen and (max-width: 900px) {
-    display: none;
-    /* width: 40%;
-    height: 0px;
-    left: 16%;
-    margin-top: 20.78px;
+//   @media screen and (max-width: 900px) {
+//     display: none;
+//     /* width: 40%;
+//     height: 0px;
+//     left: 16%;
+//     margin-top: 20.78px;
 
-    border: 2px solid #ffffff; */
-  }
-`
+//     border: 2px solid #ffffff; */
+//   }
+// `
 
 export const Logo = styled.img`
   width: 13%;
@@ -239,52 +240,52 @@ export const ContainerTexto = styled.div`
   }
 `
 
-export const ImageFooter = styled.p`
-  /* position: absolute; */
-  width: 110px;
-  height: 56px;
-  margin-left: -7px;
-  margin-top: 57px;
-  /* background: red; */
+// export const ImageFooter = styled.p`
+//   /* position: absolute; */
+//   width: 110px;
+//   height: 56px;
+//   margin-left: -7px;
+//   margin-top: 57px;
+//   /* background: red; */
 
-  font-family: Handlee;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 37px;
-  line-height: 0px;
-  /* or 0% */
+//   font-family: Handlee;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 37px;
+//   line-height: 0px;
+//   /* or 0% */
 
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.01em;
+//   display: flex;
+//   align-items: center;
+//   text-align: center;
+//   letter-spacing: 0.01em;
 
-  color: #ffffff;
-`
-// export const ConainerFoto = styled.div`
-//   position: absolute;
-//   width: 192.15px;
-//   height: 77.09px;
-//   left: 85.07px;
-//   top: 82.29px;
-//   background: orange;
+//   color: #ffffff;
 // `
+// // export const ConainerFoto = styled.div`
+// //   position: absolute;
+// //   width: 192.15px;
+// //   height: 77.09px;
+// //   left: 85.07px;
+// //   top: 82.29px;
+// //   background: orange;
+// // `
 
-export const ContainerFoto = styled.div`
-  display: flex;
-  flex-direction: row;
-  /* justify-content: right;
-    align-items: right; */
+// export const ContainerFoto = styled.div`
+//   display: flex;
+//   flex-direction: row;
+//   /* justify-content: right;
+//     align-items: right; */
 
-  position: absolute;
-  width: 100%;
-  height: 70.09px;
-  top: 82.29px;
+//   position: absolute;
+//   width: 100%;
+//   height: 70.09px;
+//   top: 82.29px;
 
-  @media screen and (max-width: 800px) {
-    display: none;
-  }
-`
+//   @media screen and (max-width: 800px) {
+//     display: none;
+//   }
+// `
 
 export const Image = styled.img`
   width: 10%;

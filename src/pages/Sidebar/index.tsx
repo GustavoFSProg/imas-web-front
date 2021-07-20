@@ -5,9 +5,11 @@ import { Container, Lista } from './styles'
 function Sidebar() {
   return (
     <Container>
+      <br />
+
       <Lista>
         <Link
-          to="#"
+          to="/"
           style={{
             textDecoration: 'none',
             color: 'brown',

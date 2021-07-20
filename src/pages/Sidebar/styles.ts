@@ -2,9 +2,10 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 260%;
-  height: 50rem;
+  height: 70rem;
   background: #f77d27;
   border-right: 1px solid brown;
+  /* margin-top: -35px; */
 
   display: block;
   /* align-items: center; */
@@ -36,7 +37,7 @@ export const Image = styled.p`
   text-align: center;
   letter-spacing: 0.01em;
 
-  color: #ffffff;
+  /* color: #ffffff; */
 `
 export const Logo = styled.img`
   width: 13%;
@@ -70,7 +71,7 @@ export const ImageFooter = styled.p`
   text-align: center;
   letter-spacing: 0.01em;
 
-  color: #ffffff;
+  /* color: #ffffff; */
 `
 export const Lista = styled.div`
   /* display: block; */
