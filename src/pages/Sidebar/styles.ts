@@ -4,7 +4,7 @@ export const Container = styled.div`
   width: 260%;
   height: 50rem;
   background: #f77d27;
-  border: 1px solid brown;
+  border-right: 1px solid brown;
 
   display: block;
   /* align-items: center; */
